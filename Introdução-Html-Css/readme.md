@@ -1,6 +1,6 @@
 # Seção de exercicios e Desafios com HTML & CSS
 # Brands da stack
-![HTML](./imagens-brand/html-5.png) ![CSS](./css-3.png)
+![HTML](../imagens-brand/html-5.png) ![CSS](../css-3.png)
 
 ## Links ùteis 
 ### IDES
