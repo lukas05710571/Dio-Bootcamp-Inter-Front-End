@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Textos</title>
+	<meta name="description" content="Página que serve como documentação das boas práticas do html">
+	<meta name="googlebot" content="noindex">
+	<meta name="googlebot-news" content="nosnippet">
+
+</head>
+<body>
+
+<header>
+	<nav>
+		<a href="index.html">Listas</a>
+		<a href="tabelas.html">Tabelas</a>
+		<a href="links.html">Links</a>
+		<a href="">Imagens</a>
+		<a href="textos.html">Elementos de texto</a>
+		<a href="formularios.html">Formulários</a>
+		
+
+	</nav>
+</header>
+
+<h1>Formulários</h1>
+<p>Nessa trata-se dos envios de formulários <br>
+que basícamente servem para o usuário preencher e uma ficha onde esses dados seram enviados <br>
+para a aplicação.</p>
+
+
+
+<section>
+<p>Existem alguns tipos de formulários que podem misturar diversos elementos html.</p>	
+</section>
+
+
+<form method="post" action="mailto:lukas.oliveira0571@gmail.com">
+	<fieldset>
+	<legend>Dados Pessoais</legend>
+	<label for="#nome">
+		Nome:
+	</label>
+	<input type="text" name="nome" id="#nome" placeholder="Digite seu nome" maxlength="200" required> <br>
+	<label for="idade">
+		Data de nascimento:
+	</label>
+	<input type="date" name="Data" id="#idade"> <br>
+	<label>
+		Sexo :
+	</label>
+	<br>
+	<label>
+		Masculino: <input type="radio" name="botao" id="#sex" value="M" required>	
+	</label>
+	<label>
+		Feminino: <input type="radio" name="botao" id="#sex" value="F">	
+	</label>
+	<br>
+	<label for="#estado">
+		Estado:
+	</label>
+	<br>
+	<select id="estado">
+		
+			<option value="SP" selected>São paulo</option>
+			<option value="MG">Minas Gerais</option>
+			<option value="Outro estado">Outro..</option>
+		
+	</select>
+		<br>
+		<label for="#multiplos">
+			Interesses :
+		</label>
+		<br>
+		<br>
+	<div id="multiplos">
+		<input type="checkbox" name="interesses" value="cinema" checked>Cinema</input> <br>
+		<input type="checkbox" name="interesses" value="games">Games</input> <br>
+		<input type="checkbox" name="interesses" value="serie">Séries</input>
+	</div>
+
+	<br>
+	<input type="hidden" name="clicou">
+	
+	<h3>
+		Àrea de comentários :
+	</h3>
+	<br>
+	
+
+	<textarea cols="100px" rows="10" maxlength="200" >
+	<p>Digite seu comentário aqui...</p>
+	</textarea>
+	<br>
+	<button>Enviar</button>
+
+</form>
+
+	
+
+</fieldset>
+
+
+</body>
+</html>
