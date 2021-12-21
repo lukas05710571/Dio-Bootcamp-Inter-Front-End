@@ -1,6 +1,6 @@
 # Seção de exercicios e Desafios com HTML & CSS
 # Brands da stack
-![HTML](./imagens-brand/html-5.png) ![CSS](./css-3.png)
+![HTML](https://github.com/lukas05710571/Dio-Bootcamp-Inter-Front-End/tree/main/imagens-brands/html-5.png) ![CSS](https://github.com/lukas05710571/Dio-Bootcamp-Inter-Front-End/tree/main/imagens-brands/css-3.png)
 
 ## Links ùteis 
 ### IDES
